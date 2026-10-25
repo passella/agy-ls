@@ -8,14 +8,19 @@ O `agy-ls` permite inspecionar, buscar, listar e navegar pelas conversas e promp
 
 ## 🛠️ Instalação Rápida
 
-### Opção 1: Via script de instalação (`install.sh`)
+### Opção 1: Instalação direta via uma única linha (Recomendado)
+```bash
+curl -fsSL https://passella.github.io/agy-ls/install.sh | bash
+```
+
+### Opção 2: Via clonagem do repositório
 ```bash
 git clone https://github.com/passella/agy-ls.git
 cd agy-ls
 ./install.sh
 ```
 
-### Opção 2: Via pipx / pip (desenvolvimento)
+### Opção 3: Via pipx / pip (desenvolvimento)
 ```bash
 pip install .
 ```
