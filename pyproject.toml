@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agy-ls"
+version = "1.0.0"
+description = "Navegador e seletor interativo de conversas do Antigravity CLI (agy)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+authors = [
+    { name = "Paulo Henrique Passella" }
+]
+
+[project.scripts]
+agy-ls = "agy_ls:main"
