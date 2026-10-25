@@ -46,6 +46,12 @@ agy-ls
 
 ## 🗑️ Desinstalação
 
+### Opção 1: Desinstalação direta em linha única (Recomendado)
+```bash
+curl -fsSL https://passella.github.io/agy-ls/uninstall.sh | bash
+```
+
+### Opção 2: Via repositório local
 ```bash
 ./uninstall.sh
 ```
